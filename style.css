@@ -1,0 +1,334 @@
+body {
+
+    font-family: 'Yandex Sans Text';
+    /*Yandex Sans Text Thin*/
+    font-weight: 400;
+    font-style: normal; 
+    margin: 0;
+    padding: 14px 12px 0 10px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cap {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(196, 196, 196);
+   /* width: 100%;*/
+
+}
+
+.Y-logo p {
+    font-size: 20px;
+}
+
+.header-logo {
+    display: flex;
+    padding-top: 6px;
+    align-items: center;
+    justify-content: space-between;
+    width: 189px;
+
+}
+
+.header-top {
+    display: flex;
+    border-bottom: 1px solid rgb(196, 196, 196);;
+    width: 100%;
+    height: 74px;
+    align-items: center;
+}
+
+.header-search {
+    display: flex;
+    margin-left: 22px;
+    align-items: center;
+    justify-content: space-between;
+    width: 665px;;
+}
+
+.form-search {
+    display: flex;
+}
+
+.text-search {
+    width: 388px;
+    height: 31px;
+    padding: 0 11px;
+    font-size: 14.8px;
+    border: 1px solid rgb(196, 196, 196);
+    border-right: 0;
+    border-radius: 3px 0 0 3px;
+    box-sizing: border-box;
+}
+
+.submit-search {
+    width: 71px;
+    height: 31px;
+    margin-left: -3px;
+    padding-top: 1px;
+    padding-left: 7px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 0 3px 3px 0;
+    background-color: white;
+    font-size: 15px;
+}
+
+.profile {
+    margin-left: auto;
+    margin-right: 27px;
+    /* border: 1px black solid; */
+    width: 42px;
+    height: 42px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.nav-content {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav  .nav-content{
+    width: 388px;
+    height: 57px;
+    margin-left: 227px;
+    margin-right: auto;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    display: flex; 
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: flex; 
+}
+
+.header-nav p {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 12.4px;;
+    border-bottom: 2px solid white;
+}
+
+.header-nav li:nth-of-type(2) p{
+    margin-right: 8.5px;
+    letter-spacing: 0.18px;
+}
+
+.header-nav input:checked +p {
+    border-bottom: 2px solid black;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+
+    border: 1px solid rgb(196, 196, 196);
+    border-top: 0; 
+    border-bottom: 0;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 478px;
+    margin-left: 224px;
+    
+}
+
+.feedback {
+    justify-content: space-between;
+    /*background-color: yellowgreen;*/
+}
+
+header.content {
+    height: 119px;
+    justify-content: space-between;
+}
+
+header.content section {
+    display: flex;
+    align-items: center;
+    height: 86px;
+}
+
+.organisation {
+    font-size: 35px;
+    letter-spacing: 0.7px;
+}
+
+.link-on-map {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 8px;
+    letter-spacing: 0px;
+}
+
+
+
+.map-point {
+    color: blue;
+    margin-right: 5px;
+    font-size: 11px;
+
+}
+
+.on-maps {
+    margin-top: 16px;
+    letter-spacing: -0.54px;
+}
+
+main .nav-content {
+    height: 27px;
+}
+
+main .nav-content p.button-like {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+    font-size: 20px;
+    padding: 3.2px 18.9px 10.2px 18.8px;
+    font-size: 12.8px;
+    border-right: 0;
+}
+
+main .nav-content input:checked +p {
+    background-color: #fde9a0;
+    padding-left: 27.5px;
+    padding-right: 29px;
+}
+
+main .nav-content li:first-of-type p.button-like {
+    border-radius: 3px 0 0 3px;
+}
+
+main .nav-content li:last-of-type p.button-like {
+    border-radius: 0 3px 3px 0;
+    border: 1px solid rgb(196, 196, 196);
+}
+
+.button-like {
+    border: 1px solid rgb(196, 196, 196); 
+}
+
+.feedback header {
+    display: flex;
+    align-items: flex-end;
+    height: 56px;
+    margin-bottom: 25px;
+}
+
+.rating-val {
+    margin: 0 3.3px -1.3px;
+    font-size: 23px;
+    letter-spacing: 0.2px;
+}
+
+.rating {
+    background-color: #fdcd07;
+    height: 24px;
+    width: 32px;
+    margin-bottom: 1px;
+    margin-left: 16px;
+    padding: 2px 0 0 6px;
+    box-sizing: border-box;
+}
+
+.rating::after {
+    content: "";
+    font-size: 0;
+    border: 12px solid transparent;
+    border-left: 6px solid #fdcd07;
+    position: absolute;
+    margin-top: -2px;
+    margin-left: 4px;
+    box-sizing: border-box;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+.card .feedback-profile{
+    display: flex;
+    align-items: center;
+    width: 333px;
+    height: 32px;
+    margin-left: 3px;
+    font-size: 12px;
+    color: rgb(196, 196, 196); 
+    letter-spacing: 0.4px;
+}
+
+.prof-image{
+    width: 32px;
+    height: 32px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.profile-name{
+    margin-left: 9px;
+    font-weight: bold;
+    font-size: 11.6px;
+    color: black;
+}
+
+.feedback-date{
+    margin-left: 8px;
+    letter-spacing: 0.15px;
+}
+
+.feedback-mark{
+    display: flex;
+    margin-left: 5.1px;
+    letter-spacing: 0.3px;
+}
+
+.like-mark {
+    color: #fdcd07;
+}
+
+.like-mark {
+    margin-left: 5px;
+    font-size: 22px;
+    margin-top: 5.5px;
+}
+
+/*marg: 26,5
+/*background-color: yellowgreen;*/
+
+/*like
+<i class="far fa-thumbs-up"></i>
+dis
+<i class="far fa-thumbs-down"></i>*/
